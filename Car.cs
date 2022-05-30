@@ -26,5 +26,14 @@ namespace Overloading_homework
             }
             return null;
         }
+
+        public static bool isPorsche(Car car)
+        {
+            if(car.BrandName == "Porsche")
+            {
+                return true;
+            }
+            return false;
+        }
     }
 }

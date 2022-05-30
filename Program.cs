@@ -14,6 +14,7 @@ namespace Overloading_homework
             var FordFocus = new Car("Focus C170", "Ford", "Zetec-E 1,6", 100, 2005);
             Console.WriteLine(Porsche911);
             Console.WriteLine(Car.FindMorePower(Porsche911, FordFocus));
+            Console.WriteLine(Car.isPorsche(FordFocus));
         }
     }
 }
